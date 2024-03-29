@@ -1,0 +1,101 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, header, aside {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-image: url('bggg.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #666666;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #060404;
+}
+
+main {
+    padding: 20px 0;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.6;
+    transition: color 0.3s ease-in-out; /* Add transition effect for color change */
+}
+
+article p:hover {
+    color: #ff0000; /* Change text color on hover */
+}
+
+aside {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+aside h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #867a7a;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer small {
+    font-size: 14px;
+    color: #555;
+}
+
+
+img {
+    max-width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+img:hover {
+    transform: scale(1.1); 
+}
